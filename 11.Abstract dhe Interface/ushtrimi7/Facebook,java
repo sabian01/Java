@@ -1,0 +1,12 @@
+public class Facebook implements App{
+
+    @Override
+    public void login() {
+        System.out.println("Ju u loguat ne facebook.");
+    }
+
+    @Override
+    public void logout() {
+        System.out.println("Ju dolet nga llogaria e facebook.");
+    }
+}
